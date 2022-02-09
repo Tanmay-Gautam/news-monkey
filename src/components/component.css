@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    /* color: #000000c2; */
+}
+
+.WeatherCard {
+    font-family: "Poppins", sans-serif;
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; */
+    /* position: relative; */
+    border-radius: 15px;
+    height: 220px !important;
+    overflow: hidden;
+    /* width: 400px; */
+}
+
+.WeatherCard h1 {
+    margin: auto;
+    font-size: 4em;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.WeatherCard-mainContent sup {
+    font-size: 50%;
+}
+
+.sunRiseSet {
+    /* margin-top: 1em; */
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    padding: 0em 5em;
+}
+
+.weatherIconTag {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    height: 100%;
+}
+
+.weatherIconTag img {
+    height: 65px;
+    width: 65px;
+    background-color: lightslategrey;
+}
+
+.weatherIconTag h3 {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    margin: 0;
+    /* margin: auto;
+    margin-top: -1.5em; */
+}
+
+@media screen and (max-width:768px){
+    .sideDiv{
+        display: none !important;
+    }
+}
+.infinite-scroll-component{
+    overflow: hidden !important;
+}
+.fakeAds{
+    background: linear-gradient(45deg, #b6014a, #4c00b3);
+}
